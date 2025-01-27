@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN TUTORIAL-EASY TUTORIALS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <a href="index.html"><img src="logo.png" width="150px"></a>
+        
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+         <i class="fa fa-bars"onclick="showMenu()"></i>
+        
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Indira Gandhi National Open University(IGNOU),located in New Delhi,INDIA
+         <br>holds the title of the biggest University in the world.</p>
+                <a href ="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+        </section>
+<!----- Course  ------>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Here is many courses which are available for ug and pg aspirants.</p>
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Intermediate schooling is a stage of education that comes between primary school <br>
+        and secondary school . It is also known as middle school,junior high school.<br>
+        or lower secondary school. Intermediate education means education pretaining to class XI and class XII<br>
+        or higher secondary eduction </p>
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>Degree, in education,any of several titles conferred by colleges and Universities to indicate<br>
+        the completion of a course of study or the extent of academic achievement.<br> </p>
+    </div>
+    <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>post-Graduation , also knowns or graduate education or graduate school,is the study or academic <br>
+        or profectional degrees,certificate ,or diplomas after earning an undergraduate degree.<br>
+       post-Graduate courses are designed to build on the knowledge gained in undergraduate studies <br>
+        and prepare students for the workplace. </p>
+    </div>
+
+</div>
+</section>
+<!-----Campus---->
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Grab this opportunity to tour world'famous tourist place. </p>
+    <div class="row">
+        <div class="campus-col">
+            <h3>LONDON</h3>
+            <img src="campus1.jpg">
+            <div class="layer">
+            
+                
+            </div>
+            
+           
+                
+        </div>
+    </div>
+
+</section>
+
+
+
+
+  <!------- JavaScript for Toggle Menu----->   
+<script>
+            var navlinks=document.getElementById("navlinks");
+
+            function showMenu(){
+                navlinks.style.right="0";
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>
